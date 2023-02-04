@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: 5px 16px;
+    cursor: pointer;
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    margin-right: 8px;
+    border-radius: 2px;
+
+    .plus {
+        font-size: 1.4rem;
+        margin-right: 8px;
+    }
+
+    .title {
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
